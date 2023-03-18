@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5793712288668964591
+--- !u!114 &-6493978783619786669
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,11 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14a86c0caa510f54da71fae9da3e66af, type: 3}
-  m_Name: MosaicRenderFeature
+  m_Script: {fileID: 11500000, guid: 174056d53bd44d24fae830f120680796, type: 3}
+  m_Name: RasterScrollRenderFeature
   m_EditorClassIdentifier: 
   m_Active: 1
-  _downSample: -26
+  _shader: {fileID: 4800000, guid: 45b21ab177d19f64b96ed4dddab52653, type: 3}
+  _speed: 1.5
+  _amplitude: 0
+  _frequency: 2.5
+  _fillBlackOutSide: 1
 --- !u!114 &-1878332245247344467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,8 +58,8 @@ MonoBehaviour:
       type: 3}
   m_RendererFeatures:
   - {fileID: -1878332245247344467}
-  - {fileID: -5793712288668964591}
-  m_RendererFeatureMap: adc0de57c6d2eee5112912af5e9998af
+  - {fileID: -6493978783619786669}
+  m_RendererFeatureMap: adc0de57c6d2eee553586befb3c0e0a5
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
