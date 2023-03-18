@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RasterScrollRenderFeature
   m_EditorClassIdentifier: 
   m_Active: 1
-  _shader: {fileID: 4800000, guid: 45b21ab177d19f64b96ed4dddab52653, type: 3}
+  _shader: {fileID: 4800000, guid: 6f2c888b2fea6bb44b46780ca6fb2091, type: 3}
   _speed: 1.5
   _amplitude: 0
   _frequency: 2.5
