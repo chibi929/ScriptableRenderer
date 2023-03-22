@@ -50,7 +50,7 @@ namespace Chibi929
     /// <param name="renderingData"></param>
     public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
     {
-      var cmdBuffer = CommandBufferPool.Get();
+      var cmdBuffer = CommandBufferPool.Get(COMMAND_BUFFER_NAME);
 
       var descriptor = renderingData.cameraData.cameraTargetDescriptor;
       descriptor.depthBufferBits = 0;
