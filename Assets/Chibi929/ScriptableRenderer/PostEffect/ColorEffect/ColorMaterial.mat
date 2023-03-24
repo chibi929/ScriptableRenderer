@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MonochromeMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: 56d2c3a9405affc4cbc3595dfb5347d1,
+  m_Name: ColorMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: bac6d2ea49c38584783d11659e1d1ddc,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -119,12 +119,12 @@ Material:
     - _SrcBlend: 1
     - _Strength: 0
     - _Surface: 0
-    - _Threshold: 1
+    - _Threshold: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.19410674, g: 0.7735849, b: 0.16420436, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
