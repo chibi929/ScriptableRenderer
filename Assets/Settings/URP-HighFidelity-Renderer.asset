@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Name: PostEffectFeature
   m_EditorClassIdentifier: 
   m_Active: 1
-  _mat: {fileID: 2100000, guid: 5cf2c4980f94d5a4bb4592724e9877f9, type: 2}
+  _mat: {fileID: 2100000, guid: 2e687cf02d9f52147af12e55def743c6, type: 2}
 --- !u!114 &8399302500181685599
 MonoBehaviour:
   m_ObjectHideFlags: 0
