@@ -106,7 +106,7 @@ Material:
     - _SrcBlend: 1
     - _Strength: 0.56039554
     - _Surface: 0
-    - _Threshold: 0
+    - _Threshold: 1
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:

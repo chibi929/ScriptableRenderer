@@ -114,8 +114,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd765cf48745f644b89df09db0130e60, type: 3}
   m_Name: PostEffectFeature
   m_EditorClassIdentifier: 
-  m_Active: 1
-  _mat: {fileID: 2100000, guid: 5cf2c4980f94d5a4bb4592724e9877f9, type: 2}
+  m_Active: 0
+  _mat: {fileID: 2100000, guid: 6c39de74d4a6d7a4398d191108ff4a2a, type: 2}
 --- !u!114 &8399302500181685599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,4 +129,4 @@ MonoBehaviour:
   m_Name: MosaicRenderFeature
   m_EditorClassIdentifier: 
   m_Active: 0
-  _downSample: -15
+  _downSample: -20
